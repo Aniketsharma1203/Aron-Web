@@ -1,0 +1,67 @@
+body{
+    background-color: aquamarine;
+}
+
+.app{
+    width: 60%;
+    max-width: 500px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 50px;
+    padding: 20px;
+}
+
+.app h1{
+    text-align: center;
+    color: rgb(90, 89, 89);
+    font-weight: 600;
+    border-bottom: 2px black solid;
+    padding-bottom: 20px;
+}
+
+.app h2{
+    color: rgb(35, 35, 33);
+    padding: 10px;
+    font-weight: 400;
+}
+
+.button{
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button:hover:not([disabled]){
+    background: black;
+    color: rgb(255, 255, 255);
+}
+
+.button:disabled{
+    cursor: no-drop;
+}
+
+#next-btn{
+    cursor: pointer;
+    width: 150px;
+    padding: 10px;
+    margin: 20px;
+    background-color: rgb(58, 69, 69);
+    font-weight: 500;
+    border: 0;
+    color: white;
+    display: none;
+}
+
+.correct{
+    background-color: rgb(200, 243, 135);
+}
+
+.incorrect{
+    background-color: rgb(241, 151, 151);
+}
+
