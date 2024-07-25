@@ -9,7 +9,21 @@
 <body>
     <div class="app">
         <h1>Simple Quiz Application</h1>
-        <div class="quiz">
+        
+        <div id="login-container">
+            <h2>Login</h2>
+            <form id="login-form">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required>
+                <br>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+
+        <div id="quiz-container" style="display:none;">
             <h2 id="question">Question goes here...</h2>
             <div id="options">
                 <button class="button">Answer 1</button>
